@@ -1,0 +1,14 @@
+{
+  "document": "wf_activity",
+  "document_key": "03aeb1cedb343300a53cfbef29961934",
+  "order": 1710,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:55:41",
+  "sys_id": "0baeb1cedb343300a53cfbef29961937",
+  "sys_mod_count": 1,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:56:19",
+  "value": "// Set values for the task in this script.  Use the variable 'task' when setting additional values.\r\n// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.\r\n//\r\n// For example:\r\n//     task.short_description = current.short_description;\r\ngs.print('hello');\r\ntask.created_from = 'workflow';",
+  "variable": "989cdb20c0a800661789b3de0f40214a"
+}

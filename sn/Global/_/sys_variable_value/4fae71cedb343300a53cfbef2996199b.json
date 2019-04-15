@@ -1,0 +1,14 @@
+{
+  "document": "wf_activity",
+  "document_key": "87ae71cedb343300a53cfbef29961999",
+  "order": 400,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:55:41",
+  "sys_id": "4fae71cedb343300a53cfbef2996199b",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:55:41",
+  "value": "3bf802c20a0a0b52008e2859cd8abcf2",
+  "variable": "8ec7a5dbc0a80066187fa7acf3778705"
+}
