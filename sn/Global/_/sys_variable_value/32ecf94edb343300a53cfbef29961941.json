@@ -1,0 +1,16 @@
+{
+  "document": "wf_activity",
+  "document_key": "3aecf94edb343300a53cfbef29961940",
+  "order": 300,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:48:01",
+  "sys_id": "32ecf94edb343300a53cfbef29961941",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:48:01",
+  "value": {
+    "____see": "sn/Global/Values/wf_activity/32ecf94edb343300a53cfbef29961941.js"
+  },
+  "variable": "c35e50810a0a0ba96248a709b450fc32"
+}

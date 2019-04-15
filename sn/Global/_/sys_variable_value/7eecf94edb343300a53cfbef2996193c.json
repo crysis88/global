@@ -1,0 +1,14 @@
+{
+  "document": "wf_activity",
+  "document_key": "76ecf94edb343300a53cfbef2996193c",
+  "order": 1370,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:48:01",
+  "sys_id": "7eecf94edb343300a53cfbef2996193c",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:48:01",
+  "value": "// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the overall approval status for this approval.\r\n//\r\n// This script is responsible for setting the approval state for each group that is part of this approval activity before\r\n// returning the overall approval state for all of the group(s).\r\n//\r\n// When called, the following variables are available to the script:\r\n//\r\n//    Overall for all of the groups that are part of this approval activity:\r\n//        counts.total = total number of groups that are part of this approval\r\n//        counts.approved = # of groups that approved so far\r\n//        counts.rejected = # of groups that rejected so far\r\n//        counts.requested = # of groups that are pending approval\r\n//        counts.not_requested = # of groups that are not pending approval\r\n//        counts.not_required = # of groups that approval is not required\r\n//\r\n//    And for each group:\r\n//        groups[group_id].total = total number of users that are part of this group's approval\r\n//        groups[group_id].approved = # of users that approved so far\r\n//        groups[group_id].rejected = # of users that rejected so far\r\n//        groups[group_id].requested = # of users that are pending approval\r\n//        groups[group_id].not_requested = # of users that are not pending approval\r\n//        groups[group_id].not_required = # of users that approval is not required\r\n//\r\n//        groups[group_id].approvalIDs[state] = array of user ids that are at the specified approval state\r\n//\r\n//        Note: Iterate the groups using:\r\n//            for (var id in groups) {\r\n//                 var group = groups[id];\r\n//                 ...  group.total ...\r\n//            }\r\n",
+  "variable": "069e81530a0a0b264289c1e23fe52558"
+}

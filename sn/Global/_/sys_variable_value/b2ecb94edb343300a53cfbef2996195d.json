@@ -1,0 +1,14 @@
+{
+  "document": "wf_activity",
+  "document_key": "36ecb94edb343300a53cfbef2996195c",
+  "order": 300,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:48:01",
+  "sys_id": "b2ecb94edb343300a53cfbef2996195d",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:48:01",
+  "value": "Number: ${number} \r\nShort description: ${short_description} \r\nhas been rejected.\r\n\r\n\r\nReason: ${reason}\r\n\r\nPlease contact \r\nAssignment group Manager: ${assignment_group.manager}\r\nif you have any questions.\r\n\r\nThank You",
+  "variable": "c35db5a50a0a0ba96248a70938ae8de6"
+}

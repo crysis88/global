@@ -1,0 +1,21 @@
+{
+  "activity": "76ecf94edb343300a53cfbef2996193c",
+  "condition": "activity.result == 'skipped' ",
+  "condition_default": "",
+  "condition_type": "standard",
+  "else_flag": false,
+  "error": false,
+  "event": false,
+  "event_name": "",
+  "is_positive": false,
+  "name": "Skipped",
+  "order": 3,
+  "short_description": "",
+  "skip_during_generate": false,
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-04-15 11:48:01",
+  "sys_id": "b2ecf94edb343300a53cfbef29961940",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-04-15 11:48:01"
+}
