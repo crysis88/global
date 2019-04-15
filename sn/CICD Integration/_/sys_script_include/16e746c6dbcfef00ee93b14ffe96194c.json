@@ -1,0 +1,25 @@
+{
+  "access": "public",
+  "active": true,
+  "api_name": "global.CiCdSource",
+  "client_callable": false,
+  "description": "",
+  "name": "CiCdSource",
+  "script": {
+    "____see": "sn/CICD Integration/Script Include/active_true/global.CiCdSource.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "b.moers",
+  "sys_created_on": "2019-01-18 12:50:13",
+  "sys_customer_update": false,
+  "sys_id": "16e746c6dbcfef00ee93b14ffe96194c",
+  "sys_mod_count": 74,
+  "sys_name": "CiCdSource",
+  "sys_package": "19190fabdbebd300dfa9b94ffe96193e",
+  "sys_policy": "",
+  "sys_replace_on_upgrade": false,
+  "sys_scope": "19190fabdbebd300dfa9b94ffe96193e",
+  "sys_update_name": "sys_script_include_16e746c6dbcfef00ee93b14ffe96194c",
+  "sys_updated_by": "b.moers",
+  "sys_updated_on": "2019-02-28 14:20:27"
+}
