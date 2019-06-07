@@ -1,0 +1,23 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "global.Test",
+  "client_callable": false,
+  "description": "",
+  "name": "Test",
+  "script": {
+    "____see": "sn/Global/Script Include/active_true/global.Test.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-06-07 10:31:32",
+  "sys_id": "ada7e2cf4f713300a3cc121f9310c711",
+  "sys_mod_count": 0,
+  "sys_name": "Test",
+  "sys_package": "global",
+  "sys_policy": "",
+  "sys_scope": "global",
+  "sys_update_name": "sys_script_include_ada7e2cf4f713300a3cc121f9310c711",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-06-07 10:31:32"
+}
