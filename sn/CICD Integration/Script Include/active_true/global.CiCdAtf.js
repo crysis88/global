@@ -3,7 +3,7 @@
  * ClassName   : sys_script_include
  * Created On  : 2018-08-02 10:25:39
  * Created By  : b.moers
- * Updated On  : 2019-06-12 11:12:24
+ * Updated On  : 2019-06-12 11:23:19
  * Updated By  : admin
  * URL         : /sys_script_include.do?sys_id=94a29327db2fd300dfa9b94ffe9619a5
  */
@@ -126,6 +126,7 @@ CiCdAtf.prototype = /** @lends global.module:sys_script_include.CiCdAtf.prototyp
             testRunnerSessionId = null;
 
         var requestBody = self.request.body;
+        gs.log('Runner body:' + JSON.stringify(requestBody));
         if (!requestBody || !requestBody.hasNext())
             return new sn_ws_err.BadRequestError('initialize: no body found');
 
