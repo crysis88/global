@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "description": "Validate that the form matches the following condition:\n",
+  "display_name": "Field Values Validation",
+  "inputs": "",
+  "order": 4,
+  "step_config": "1b97cd31872022008182c9ded0e3ece5",
+  "sys_class_name": "sys_atf_step",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-06-12 07:02:54",
+  "sys_id": "7bd76f20db4e33002c23273748961916",
+  "sys_mod_count": 0,
+  "sys_name": "Field Values Validation",
+  "sys_package": "global",
+  "sys_policy": "",
+  "sys_scope": "global",
+  "sys_update_name": "sys_atf_step_7bd76f20db4e33002c23273748961916",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-06-12 07:02:54",
+  "table": "change_request",
+  "test": "0c472320db4e33002c23273748961922",
+  "timeout": ""
+}

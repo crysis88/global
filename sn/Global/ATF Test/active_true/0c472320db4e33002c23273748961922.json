@@ -1,0 +1,18 @@
+{
+  "active": true,
+  "description": "CICD demo test\nTest generated from template. To complete this test do the following:\n1. Pick a correct user to impersonate, a user with the right roles.\n2. Opens a new form for a table.\n3. Edit the Set Field Values step to supply values for all fields that need them.\n4. Validates field values on the current form.\n5. Edit the mandatory, non mandatory, read only, non read only, visible and non visible fields.\n6. Edit the visible, not visible fields of the form.\n7. Clicks a UI Action on the current form.\n8. Submits the current form.\n",
+  "name": "My New Test",
+  "remember": "",
+  "sys_class_name": "sys_atf_test",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-06-12 07:00:23",
+  "sys_id": "0c472320db4e33002c23273748961922",
+  "sys_mod_count": 1,
+  "sys_name": "My New Test",
+  "sys_package": "global",
+  "sys_policy": "",
+  "sys_scope": "global",
+  "sys_update_name": "sys_atf_test_0c472320db4e33002c23273748961922",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-06-12 07:02:54"
+}
