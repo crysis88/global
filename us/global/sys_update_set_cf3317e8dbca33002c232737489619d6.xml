@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-06-12 05:34:35">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>12_June</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>cf3317e8dbca33002c232737489619d6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 05:34:34</sys_created_on>
+<sys_id>79a35fe0db0e33002c23273748961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 05:34:34</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_b1631be0db0e33002c232737489619e7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.DemoCICD&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;DemoCICD&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var DemoCICD = Class.create();
+DemoCICD.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    type: 'DemoCICD'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-12 05:33:47&lt;/sys_created_on&gt;&lt;sys_id&gt;b1631be0db0e33002c232737489619e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DemoCICD&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b1631be0db0e33002c232737489619e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-12 05:33:47&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-313476916</payload_hash>
+<remote_update_set display_value="12_June">79a35fe0db0e33002c23273748961909</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 05:34:34</sys_created_on>
+<sys_id>3da35fe0db0e33002c23273748961909</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b4a2d8c3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 05:34:34</sys_updated_on>
+<table/>
+<target_name>DemoCICD</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>1a73d7e0610e3300986f40b464e74b5d</update_guid>
+<update_guid_history>1a73d7e0610e3300986f40b464e74b5d:-313476916</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
