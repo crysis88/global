@@ -3,7 +3,7 @@
  * ClassName   : sys_script_include
  * Created On  : 2018-08-02 10:25:39
  * Created By  : b.moers
- * Updated On  : 2019-06-12 11:08:52
+ * Updated On  : 2019-06-12 11:12:24
  * Updated By  : admin
  * URL         : /sys_script_include.do?sys_id=94a29327db2fd300dfa9b94ffe9619a5
  */
@@ -90,7 +90,7 @@ CiCdAtf.prototype = /** @lends global.module:sys_script_include.CiCdAtf.prototyp
      * @returns {any} testRunnerSessionId
      */
     getTestRunnerSessionId: function (runnerId) {
-        console.log('Runner Id: ' + runnerId);
+        gs.log('Runner Id: ' + runnerId);
         var testRunnerSessionId = null;
 
         var existingRunner = new GlideRecord("sys_atf_agent");
