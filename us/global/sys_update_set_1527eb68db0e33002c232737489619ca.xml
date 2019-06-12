@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-06-12 09:47:02">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-06-12 11:13:41">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
 <application_name>Global</application_name>
@@ -20,11 +20,11 @@
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>3b6d08b8db8e33002c23273748961975</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>054124f4dbce33002c23273748961903</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
@@ -34,45 +34,19 @@
 <application display_value="Global">global</application>
 <category>customer</category>
 <comments/>
-<name>sys_atf_step_ffd76f20db4e33002c23273748961928</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><order>8</order><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c23273748961928</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_ffd76f20db4e33002c23273748961928</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table/><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ffd76f20db4e33002c23273748961928"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ffd76f20db4e33002c23273748961928</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c23273748961929</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
-<payload_hash>-588111207</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>376d08b8db8e33002c23273748961977</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16b4a7f25080000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
-<table/>
-<target_name>Submit a Form</target_name>
-<type>Test Step</type>
-<update_domain>global</update_domain>
-<update_guid>73d76f20cb4e33005401f5d617c80c2b</update_guid>
-<update_guid_history>73d76f20cb4e33005401f5d617c80c2b:-588111207</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
 <name>sys_atf_step_7bd76f20db4e33002c23273748961916</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Validate that the form matches the following condition:
 </description><display_name>Field Values Validation</display_name><inputs/><order>4</order><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7bd76f20db4e33002c23273748961916</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_7bd76f20db4e33002c23273748961916</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7bd76f20db4e33002c23273748961916"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7bd76f20db4e33002c23273748961916</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3fd76f20db4e33002c23273748961917</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7bd76f20db4e33002c23273748961916</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7bd76f20db4e33002c23273748961917</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>-1352005407</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>3b6d08b8db8e33002c23273748961976</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>014124f4dbce33002c23273748961904</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16b4a7f23ce0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table>change_request</table>
 <target_name>Field Values Validation</target_name>
 <type>Test Step</type>
@@ -87,18 +61,44 @@
 <application display_value="Global">global</application>
 <category>customer</category>
 <comments/>
+<name>sys_atf_step_ffd76f20db4e33002c23273748961928</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><order>8</order><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c23273748961928</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_ffd76f20db4e33002c23273748961928</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table/><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ffd76f20db4e33002c23273748961928"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ffd76f20db4e33002c23273748961928</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c23273748961929</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-588111207</payload_hash>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>0d4124f4dbce33002c23273748961904</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b4a7f25080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
+<table/>
+<target_name>Submit a Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>73d76f20cb4e33005401f5d617c80c2b</update_guid>
+<update_guid_history>73d76f20cb4e33005401f5d617c80c2b:-588111207</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
 <name>sys_atf_step_fbd72f20db4e33002c232737489619f5</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Open a new 'Change Request' form</description><display_name>Open a New Form</display_name><inputs/><order>2</order><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd72f20db4e33002c232737489619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_fbd72f20db4e33002c232737489619f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=fbd72f20db4e33002c232737489619f5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fbd72f20db4e33002c232737489619f5</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3fd72f20db4e33002c232737489619f6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fbd72f20db4e33002c232737489619f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd72f20db4e33002c232737489619f6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">bb84ed825320220002c6435723dc3400</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>1618765869</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>736d08b8db8e33002c23273748961977</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>494124f4dbce33002c23273748961904</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16b4a7f232f0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table>change_request</table>
 <target_name>Open a New Form</target_name>
 <type>Test Step</type>
@@ -117,15 +117,15 @@
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Set the values on the form as follows:
 </description><display_name>Set Field Values</display_name><inputs/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7bd76f20db4e33002c23273748961912</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_7bd76f20db4e33002c23273748961912</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7bd76f20db4e33002c23273748961912"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7bd76f20db4e33002c23273748961912</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3fd76f20db4e33002c23273748961913</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7bd76f20db4e33002c23273748961912</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7bd76f20db4e33002c23273748961913</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>465323302</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>776d08b8db8e33002c23273748961976</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>4d4124f4dbce33002c23273748961903</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16b4a7f236e0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table>change_request</table>
 <target_name>Set Field Values</target_name>
 <type>Test Step</type>
@@ -137,21 +137,431 @@
 </sys_update_xml>
 <sys_update_xml action="INSERT_OR_UPDATE">
 <action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Integration">19190fabdbebd300dfa9b94ffe96193e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_94a29327db2fd300dfa9b94ffe9619a5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CiCdAtf&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;CiCdAtf&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/* exported CiCdAtf */
+/* global sn_atf, gs, GlideChecksum, GlideXMLDocument, sn_ws, sn_ws_err, Class, TestExecutorAjax, GlideRecord, GlideProperties, JSON */
+
+
+/**
+ * Class Description
+ * 
+ * @class 
+ * @author Boris Moers
+ * @requires sn_ws_err.module:sys_script_include.BadRequestError
+ * @requires global.module:sys_script_include.TestExecutorAjax
+ * @memberof global.module:sys_script_include
+ */
+var CiCdAtf = Class.create();
+
+CiCdAtf.prototype = /** @lends global.module:sys_script_include.CiCdAtf.prototype */ {
+
+    /**
+     * Constructor
+     * 
+     * @param {any} request
+     * @param {any} response
+     * @returns {undefined}
+     */
+    initialize: function (request, response) {
+        var self = this;
+
+        self.request = request;
+        self.response = response;
+
+    },
+
+    /**
+     * Get param from URL path
+     * 
+     * @param {any} paramName
+     * @param {any} callback
+     * @returns {undefined}
+     */
+    getPathParam: function (paramName, callback) {
+        var self = this,
+            out = (paramName in self.request.pathParams) ? self.request.pathParams[paramName] : null;
+
+        if (self.isFunction(callback)) {
+            return callback(out);
+        } else {
+            return out;
+        }
+    },
+
+    /**
+     * Get param form URL query argument
+     * 
+     * @param {any} paramName
+     * @param {any} callback
+     * @returns {undefined}
+     */
+    getQueryParam: function (paramName, callback) {
+        var self = this,
+            out = (paramName in self.request.queryParams) ? (function () {
+                var value = self.request.queryParams[paramName];
+                if (Array.isArray(value)) {
+                    return (value.length === 1) ? value[0] : value;
+                } else {
+                    return value;
+                }
+            })() : null;
+
+        if (self.isFunction(callback)) {
+            return callback(out);
+        } else {
+            return out;
+        }
+    },
+
+
+    /**
+     * Get the testrunner from the current user.
+     * This requires the testrunner window to be opened in a browser first.
+     * 
+     * @returns {any} testRunnerSessionId
+     */
+    getTestRunnerSessionId: function (runnerId) {
+        gs.log('Runner Id: ' + runnerId);
+        var testRunnerSessionId = null;
+
+        var existingRunner = new GlideRecord("sys_atf_agent");
+        existingRunner.addQuery("status", "online");
+        existingRunner.addQuery("type", "manual");
+        existingRunner.addQuery("user_agent", "CONTAINS", runnerId);
+        // existingRunner.addQuery("session_id", new GlideChecksum(gs.getSessionID()).getMD5());
+        // otherSessionRunner.addQuery("session_id","!=", new GlideChecksum(gs.getSessionID()).getMD5());
+        // existingRunner.addQuery("user", gs.getUserID());
+        existingRunner.setLimit(1);
+        existingRunner._query();
+        if (existingRunner._next()) {
+            testRunnerSessionId = existingRunner.getValue('session_id');
+        }
+        return testRunnerSessionId;
+    },
+
+
+    /**
+     * Execute a Test-Suite&lt;br&gt;
+     * 
+     * mapped to POST /api/devops/v1/cicd/atf/suite
+     * @returns {any} out
+     */
+    executeSuite: function () {
+        var self = this,
+            suiteId,
+            runnerId,
+            out = {
+                executionId: null
+            },
+            need_browser = false,
+            testRunnerSessionId = null;
+
+        var requestBody = self.request.body;
+        if (!requestBody || !requestBody.hasNext())
+            return new sn_ws_err.BadRequestError('initialize: no body found');
+
+        var body = requestBody.nextEntry();
+        suiteId = body.id || null;
+        if (gs.nil(suiteId))
+            return new sn_ws_err.BadRequestError('initialize: suiteId property not found');
+
+        runnerId = body.runnerId || null;
+        if (gs.nil(runnerId))
+            return new sn_ws_err.BadRequestError('initialize: runnerId property not found');
+        
+        var gr = new GlideRecord('sys_atf_test_suite');
+        if (!gr.get(suiteId)) {
+            return new sn_ws_err.BadRequestError("Could not find the Test suite with id: " + suiteId);
+        }
+
+        out.url = gs.getProperty('glide.servlet.uri').concat(gr.getLink(true));
+        out.name = gr.getDisplayValue();
+
+        need_browser = sn_atf.AutomatedTestingFramework.doesSuiteHaveUITests(suiteId);
+        if (need_browser) {
+            testRunnerSessionId = self.getTestRunnerSessionId(runnerId);
+            if (gs.nil(testRunnerSessionId)) {
+                return new sn_ws_err.BadRequestError("This TestSuite requires an active Test Runner to be available.");
+            }
+        }
+
+        // execute suite
+        out.executionId = new TestExecutorAjax((function () {
+            var params = {
+                'sysparm_name': 'true',
+                'sysparm_ajax_processor_ut_test_suite_id': suiteId,
+                'sysparm_ajax_processor_test_runner_session_id': testRunnerSessionId
+            };
+            return {
+                /**
+                 * Description
+                 * 
+                 * @param {any} paramName
+                 * @returns {MemberExpression}
+                 */
+                getParameter: function (paramName) {
+                    return params[paramName];
+                }
+            };
+        })(), new GlideXMLDocument(), '').process();
+
+        /*
+        var executor = new sn_atf.UserTestSuiteExecutor();
+        executor.setTestSuiteSysId(suiteId);
+        executor.setTestRunnerSessionId(testRunnerSessionId);
+        out.executionId = executor.start();
+        */
+        return out;
+    },
+
+    /**
+     * Tet Test-Suite results&lt;br&gt;
+     * 
+     * mapped to GET /api/devops/v1/cicd/atf/suite/{id}
+     * @returns {any} out
+     */
+    getSuiteResults: function () {
+        var self = this,
+            out = {
+                testResults: []
+            };
+
+        var suiteId = self.getPathParam('suiteId');
+
+        var gr = new GlideRecord('sys_atf_test_suite_result');
+        if (gr.get(suiteId)) {
+            out.number = gr.getValue('number');
+            out.status = gr.getValue('status');
+            out.duration = gr.getValue('run_time');
+            out.url = gs.getProperty('glide.servlet.uri').concat(gr.getLink(true));
+            out.type = 'test_suite_result';
+
+            var gRes = new GlideRecord('sys_atf_test_result');
+            gRes.addQuery('parent', gr.getValue('sys_id'));
+            gRes._query();
+            while (gRes._next()) {
+                out.testResults.push(self._getTestResultDetails(gRes.getValue('sys_id')));
+            }
+        }
+        return out;
+    },
+
+
+    /**
+     * Execute a single Test&lt;br&gt;
+     * mapped to POST /api/devops/v1/cicd/atf/test
+     * @returns {any} out
+     */
+    executeTest: function () {
+        var self = this,
+            testId,
+            runnerId,
+            out = {
+                executionId: null
+            },
+            need_browser = false,
+            testRunnerSessionId = null;
+
+        var requestBody = self.request.body;
+        if (!requestBody || !requestBody.hasNext())
+            return new sn_ws_err.BadRequestError('initialize: no body found');
+
+        var body = requestBody.nextEntry();
+        testId = body.id || null;
+        if (gs.nil(testId))
+            return new sn_ws_err.BadRequestError('initialize: testId property not found' + JSON.stringify(body));
+
+        runnerId = body.runnerId || null;
+        if (gs.nil(runnerId))
+            return new sn_ws_err.BadRequestError('initialize: runnerId property not found');
+        
+        var gr = new GlideRecord('sys_atf_test');
+        if (!gr.get(testId)) {
+            return new sn_ws_err.BadRequestError("Could not find the Test suite with id: " + testId);
+        }
+
+        out.url = gs.getProperty('glide.servlet.uri').concat(gr.getLink(true));
+        out.name = gr.getDisplayValue();
+
+        need_browser = sn_atf.AutomatedTestingFramework.doesTestHaveUISteps(testId);
+        if (need_browser) {
+            testRunnerSessionId = self.getTestRunnerSessionId(runnerId);
+            if (gs.nil(testRunnerSessionId)) {
+                return new sn_ws_err.BadRequestError("This Test requires an active Test Runner to be available.");
+            }
+        }
+
+        // execute test
+        out.executionId = new TestExecutorAjax((function () {
+            var params = {
+                'sysparm_ajax_processor_ut_test_id': testId,
+                'sysparm_ajax_processor_test_runner_session_id': testRunnerSessionId
+            };
+            return {
+                /**
+                 * Description
+                 * 
+                 * @param {any} name
+                 * @returns {MemberExpression}
+                 */
+                getParameter: function name(name) {
+                    return params[name];
+                }
+            };
+        })(), new GlideXMLDocument(), '').process();
+
+        return out;
+    },
+
+
+    /**
+     * Get Single Test Results&lt;br&gt;
+     * mapped to GET /api/devops/v1/cicd/atf/test/{id}
+     * @returns {any}
+     */
+    getTestResults: function () {
+        var self = this;
+
+        var testId = self.getPathParam('testId');
+
+        return self._getTestResultDetails(testId);
+
+    },
+
+    /**
+     * Get the execution state of a test run&lt;br&gt;
+     * mapped to GET /api/devops/v1/cicd/atf/track/{id}
+     * @returns {any}
+     */
+    getExecutionTrackerState: function () {
+        var self = this;
+        var id = self.getPathParam('executionId');
+        var gr = new GlideRecord('sys_execution_tracker');
+        gr.get(id);
+
+        return {
+            state: {
+                value: gr.getValue('state'),
+                display_value: gr.getDisplayValue('state')
+            },
+            result: {
+                value: gr.getValue('result'),
+                display_value: gr.getDisplayValue('result')
+            },
+            url: gs.getProperty('glide.servlet.uri').concat(gr.getLink(true))
+        };
+
+    },
+
+    /**
+     * convert test result to object
+     * 
+     * @param {any} sysId
+     * @returns {any} out
+     */
+    _getTestResultDetails: function (sysId) {
+        var self = this,
+            out = {
+                stepResults: []
+            };
+
+        var gr = new GlideRecord('sys_atf_test_result');
+        if (gr.get(sysId)) {
+
+            out.number = gr.getDisplayValue('test');
+            out.status = gr.getValue('status');
+            out.startTime = gr.getValue('start_time');
+            out.endTime = gr.getValue('end_time');
+            out.duration = gr.getValue('run_time');
+            out.output = gr.getValue('output');
+            out.type = 'test_result';
+            out.url = gs.getProperty('glide.servlet.uri').concat(gr.getLink(true));
+
+            var gRes = new GlideRecord('sys_atf_test_result_step');
+            gRes.addQuery('test_result', gr.getValue('sys_id'));
+            gRes.orderBy('step.order');
+            gRes._query();
+            while (gRes._next()) {
+                out.stepResults.push({
+                    order: parseInt(gRes.getElement('step.order').toString(), 10),
+                    startTime: gRes.getValue('start_time'),
+                    step: gRes.getDisplayValue('step'),
+                    status: gRes.getValue('status'),
+                    summary: gRes.getValue('summary'),
+                    url: gs.getProperty('glide.servlet.uri').concat(gRes.getLink(true))
+                });
+            }
+        }
+        return out;
+    },
+
+    type: 'CiCdAtf'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;b.moers&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-08-02 10:25:39&lt;/sys_created_on&gt;&lt;sys_id&gt;94a29327db2fd300dfa9b94ffe9619a5&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;CiCdAtf&lt;/sys_name&gt;&lt;sys_package display_value="CICD Integration" source="19190fabdbebd300dfa9b94ffe96193e"&gt;19190fabdbebd300dfa9b94ffe96193e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Integration"&gt;19190fabdbebd300dfa9b94ffe96193e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_94a29327db2fd300dfa9b94ffe9619a5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-12 11:12:24&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-53190653</payload_hash>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>814124f4dbce33002c23273748961905</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b4b638f0b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
+<table/>
+<target_name>CiCdAtf</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>26f0acb465ce3300e2c961bb4a24ad56</update_guid>
+<update_guid_history>26f0acb465ce3300e2c961bb4a24ad56:-53190653,7e20e4b060ce3300fd7d3ae4c2d08bf2:648007740,e666ad97bc73ab40181df03c85a308a9:-404806724,a3b1577fae17a780b69954923240001d:-1575081301,1562bf93cf20e34044aa93b44b20fb92:-684264248,62513fdf24eca340ce38237bd25ae581:1356482684,b4fdebdfd6eca34097acb16ec6611c5a:602174477,7f79d75ff1aca34020db7694287c3621:-1362713953,30f85b1f30aca34099794ae4ab30cb4f:-1398262677,9a38d71f5caca340f40a380bfd099fef:1986264041,f69c9e9770e8a3409257462e632bb9e8:-8368473,c28b925741e8a3408f00437e83f866cd:1840300241,2dd51a1f02a8a34038c1728bf6309581:574721554,a7859adf50a8a3409ca01d8fda2b19a1:-8368473,03351e9f63a8a34013d57d6c841c952b:794905912,d14fdc222ea8ef0091a608d4d6367fa3:-1820675475,c83f10e25268ef00824e0162101a3cb6:1762877155,b1aed72f6b2fd30076bd17d36d2d4b2e:-173311693,0c041327612fd3001b6e6e2144235708:-181834977,7ec39f27032fd300e1d42d22ddac6b66:2142472068,e0139fe3132fd300054036c4712a463f:-1313089539</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_bbd76f20db4e33002c23273748961924</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description/><display_name>Click a UI Action</display_name><inputs/><order>7</order><step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bbd76f20db4e33002c23273748961924</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Click a UI Action</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_bbd76f20db4e33002c23273748961924</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=bbd76f20db4e33002c23273748961924"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>73d76f20db4e33002c23273748961926</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">3eee292353e0220002c6435723dc343c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bfd76f20db4e33002c23273748961925</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">7c5f6d2353e0220002c6435723dc34f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd76f20db4e33002c23273748961925</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">7600f16353e0220002c6435723dc34d5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>587450092</payload_hash>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>854124f4dbce33002c23273748961904</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b4a7f24da0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
+<table>change_request</table>
+<target_name>Click a UI Action</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>f7d76f20914e33006e27d02f93b85827</update_guid>
+<update_guid_history>f7d76f20914e33006e27d02f93b85827:587450092</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
 <application display_value="Global">global</application>
 <category>customer</category>
 <comments/>
 <name>sys_atf_step_77d76f20db4e33002c23273748961920</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>This step will do nothing. Please provide at least one UI action to assert visibility or invisibility on.</description><display_name>UI Action Visibility</display_name><inputs/><order>6</order><step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d76f20db4e33002c23273748961920</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UI Action Visibility</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_77d76f20db4e33002c23273748961920</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=77d76f20db4e33002c23273748961920"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>77d76f20db4e33002c23273748961920</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3bd76f20db4e33002c23273748961921</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">6619c7aa5320220002c6435723dc34e2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>77d76f20db4e33002c23273748961920</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d76f20db4e33002c23273748961921</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">56e6bee65320220002c6435723dc34b9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>77d76f20db4e33002c23273748961920</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd76f20db4e33002c23273748961921</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">ba62b4075320220002c6435723dc34b9</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>-1878975332</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>b36d08b8db8e33002c23273748961976</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>894124f4dbce33002c23273748961903</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16b4a7f24a10000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table>change_request</table>
 <target_name>UI Action Visibility</target_name>
 <type>Test Step</type>
@@ -166,24 +576,50 @@
 <application display_value="Global">global</application>
 <category>customer</category>
 <comments/>
-<name>sys_atf_step_bbd76f20db4e33002c23273748961924</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description/><display_name>Click a UI Action</display_name><inputs/><order>7</order><step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bbd76f20db4e33002c23273748961924</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Click a UI Action</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_bbd76f20db4e33002c23273748961924</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=bbd76f20db4e33002c23273748961924"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>73d76f20db4e33002c23273748961926</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">3eee292353e0220002c6435723dc343c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bfd76f20db4e33002c23273748961925</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">7c5f6d2353e0220002c6435723dc34f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bbd76f20db4e33002c23273748961924</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd76f20db4e33002c23273748961925</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">7600f16353e0220002c6435723dc34d5</variable></sys_variable_value></record_update>]]></payload>
-<payload_hash>587450092</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<name>sys_atf_step_7fd76f20db4e33002c2327374896191a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description/><display_name>Field State Validation</display_name><inputs/><order>5</order><step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7fd76f20db4e33002c2327374896191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Field State Validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_7fd76f20db4e33002c2327374896191a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7fd76f20db4e33002c2327374896191a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>310</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3bd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">e63a97535320220002c6435723dc34b8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3fd76f20db4e33002c2327374896191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">0cd9df135320220002c6435723dc3426</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>410</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">787a9b535320220002c6435723dc3455</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>210</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>b3d76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">e81ad3535320220002c6435723dc340c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bfd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">80f953535320220002c6435723dc340f</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">6e5a1b535320220002c6435723dc3498</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c2327374896191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">592a17535320220002c6435723dc34d7</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1115366623</payload_hash>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>bf6d08b8db8e33002c23273748961976</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>c14124f4dbce33002c23273748961904</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16b4a7f24da0000001</sys_recorded_at>
+<sys_recorded_at>16b4a7f24270000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table>change_request</table>
-<target_name>Click a UI Action</target_name>
+<target_name>Field State Validation</target_name>
 <type>Test Step</type>
 <update_domain>global</update_domain>
-<update_guid>f7d76f20914e33006e27d02f93b85827</update_guid>
-<update_guid_history>f7d76f20914e33006e27d02f93b85827:587450092</update_guid_history>
+<update_guid>3fd76f20a14e33001b0c0b8dc9e6151e</update_guid>
+<update_guid_history>3fd76f20a14e33001b0c0b8dc9e6151e:-1115366623</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_77d72f20db4e33002c232737489619f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Impersonate a user</description><display_name>Impersonate</display_name><inputs/><order>1</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d72f20db4e33002c232737489619f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_77d72f20db4e33002c232737489619f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table/><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=77d72f20db4e33002c232737489619f1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>77d72f20db4e33002c232737489619f1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bbd72f20db4e33002c232737489619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-372763102</payload_hash>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>c54124f4dbce33002c23273748961903</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b4a7f22df0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>77d72f209b4e3300ff7ee3820618b0f4</update_guid>
+<update_guid_history>77d72f209b4e3300ff7ee3820618b0f4:-372763102</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -205,73 +641,21 @@ Test generated from template. To complete this test do the following:
 8. Submits the current form.
 </description><name>My New Test</name><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:00:23</sys_created_on><sys_id>0c472320db4e33002c23273748961922</sys_id><sys_mod_count>1</sys_mod_count><sys_name>My New Test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_test_0c472320db4e33002c23273748961922</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=0c472320db4e33002c23273748961922"/></record_update>]]></payload>
 <payload_hash>-1986085549</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
+<remote_update_set display_value="12_June_l">054124f4dbce33002c23273748961903</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>f76d08b8db8e33002c23273748961977</sys_id>
+<sys_created_on>2019-06-12 11:13:40</sys_created_on>
+<sys_id>cd4124f4dbce33002c23273748961904</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_recorded_at>16b4a7f21aa0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
+<sys_updated_on>2019-06-12 11:13:40</sys_updated_on>
 <table/>
 <target_name>My New Test</target_name>
 <type>Test</type>
 <update_domain>global</update_domain>
 <update_guid>ffd72f20934e33003d34315365361aee</update_guid>
 <update_guid_history>ffd72f20934e33003d34315365361aee:-1986085549,43472320594e3300d8d5ca6988caae97:1142576462</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
-<name>sys_atf_step_77d72f20db4e33002c232737489619f1</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Impersonate a user</description><display_name>Impersonate</display_name><inputs/><order>1</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d72f20db4e33002c232737489619f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_77d72f20db4e33002c232737489619f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table/><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=77d72f20db4e33002c232737489619f1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>77d72f20db4e33002c232737489619f1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bbd72f20db4e33002c232737489619f2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
-<payload_hash>-372763102</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>fb6d08b8db8e33002c23273748961975</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16b4a7f22df0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
-<table/>
-<target_name>Impersonate</target_name>
-<type>Test Step</type>
-<update_domain>global</update_domain>
-<update_guid>77d72f209b4e3300ff7ee3820618b0f4</update_guid>
-<update_guid_history>77d72f209b4e3300ff7ee3820618b0f4:-372763102</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
-<name>sys_atf_step_7fd76f20db4e33002c2327374896191a</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description/><display_name>Field State Validation</display_name><inputs/><order>5</order><step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>7fd76f20db4e33002c2327374896191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Field State Validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_atf_step_7fd76f20db4e33002c2327374896191a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><table>change_request</table><test display_value="My New Test">0c472320db4e33002c23273748961922</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7fd76f20db4e33002c2327374896191a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>310</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3bd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">e63a97535320220002c6435723dc34b8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>3fd76f20db4e33002c2327374896191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">0cd9df135320220002c6435723dc3426</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>410</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>77d76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">787a9b535320220002c6435723dc3455</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>210</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>b3d76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">e81ad3535320220002c6435723dc340c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>bfd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value>change_request</value><variable display_value="">80f953535320220002c6435723dc340f</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>fbd76f20db4e33002c2327374896191c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">6e5a1b535320220002c6435723dc3498</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7fd76f20db4e33002c2327374896191a</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-12 07:02:54</sys_created_on><sys_id>ffd76f20db4e33002c2327374896191b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-12 07:02:54</sys_updated_on><value/><variable display_value="">592a17535320220002c6435723dc34d7</variable></sys_variable_value></record_update>]]></payload>
-<payload_hash>-1115366623</payload_hash>
-<remote_update_set display_value="12_June_l">3b6d08b8db8e33002c23273748961975</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2019-06-12 09:47:01</sys_created_on>
-<sys_id>fb6d08b8db8e33002c23273748961976</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>16b4a7f24270000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2019-06-12 09:47:01</sys_updated_on>
-<table>change_request</table>
-<target_name>Field State Validation</target_name>
-<type>Test Step</type>
-<update_domain>global</update_domain>
-<update_guid>3fd76f20a14e33001b0c0b8dc9e6151e</update_guid>
-<update_guid_history>3fd76f20a14e33001b0c0b8dc9e6151e:-1115366623</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
