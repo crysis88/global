@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-06-20 10:14:22">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Demo_20_June_global_update_set</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>0fce5d53db4233002c232737489619be</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-20 10:14:21</sys_created_on>
+<sys_id>86606d17db4233002c23273748961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-20 10:14:21</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_ffe65262c0a80a6e0015f61b382d73be</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CurrencyConverter&lt;/api_name&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Converts currency amounts in price and currency instance tables&lt;/description&gt;&lt;name&gt;CurrencyConverter&lt;/name&gt;&lt;script&gt;&lt;![CDATA[gs.include("PrototypeServer");
+
+var CurrencyConverter = Class.create();
+
+CurrencyConverter.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+  process: function() {
+    if(this.getName() == 'convertStorageValue')
+       return this.convertStorageValue(this.getType(), this.getValue());
+    if(this.getName() == 'getCurrencies')
+       return this.getCurrencies();
+  },
+
+  convert: function(gr) {
+    if (!gr.currency) {
+      // user locale
+      var locale = getLocale();
+      var c = getCurrency(locale);
+      gr.currency.setDisplayValue(c.getCurrencyCode());
+    }
+
+    var from = gr.currency.getDisplayValue();
+
+    // system locale (reference currency)
+    var sysLocale = getSystemLocale();
+    var converter = new GlideConverter();
+    var referenceCurrency = converter.getReferenceCurrencyCode();
+    var amount = converter.parseValueAndConvert(current.amount, from, referenceCurrency);
+	  gs.log('Currency amount: ' + amount);
+    gr.reference_amount = amount; 
+    gr.reference_currency = referenceCurrency;
+  },
+
+  convertStorageValue: function(from, value) {
+    var c = new GlideConverter();
+    return c.convert(value, from, 'USD');
+  },
+
+  getCurrencies: function() {
+    var array = new SNC.CurrencyAccessor().getActiveCurrencies().toArray();
+    return array.map(function(item) {
+		return item.getCode();
+	}).join(",");
+  },
+  
+  isPublic: function() {
+    return false;
+  }
+});
+
+function getSystemLocale() {
+  return GlideLocale.get().getSystemLocale();
+}
+
+
+// session locale
+function getLocale() {
+  return GlideLocale.get().getCurrent();
+}
+
+function getCurrency(locale) {
+  return Packages.java.util.Currency.getInstance(locale);
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;glide.maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2009-01-22 19:52:11&lt;/sys_created_on&gt;&lt;sys_id&gt;ffe65262c0a80a6e0015f61b382d73be&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;CurrencyConverter&lt;/sys_name&gt;&lt;sys_package display_value="Currency support (costs and pricing)" source="com.glide.currency"&gt;e33866f264232300aadba650cb85d4d4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ffe65262c0a80a6e0015f61b382d73be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-20 10:13:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1305204335</payload_hash>
+<remote_update_set display_value="Demo_20_June_global_update_set">86606d17db4233002c23273748961902</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-20 10:14:21</sys_created_on>
+<sys_id>4a606d17db4233002c23273748961902</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b74605fd00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-20 10:14:21</sys_updated_on>
+<table/>
+<target_name>CurrencyConverter</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>a7206517664233005452f6ff29aa4464</update_guid>
+<update_guid_history>a7206517664233005452f6ff29aa4464:-1305204335,ab206517654233002b31595c7e674f61:-1976876778</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
